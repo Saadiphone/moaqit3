@@ -1,0 +1,85 @@
+تاريخ التنفيذ: Sat 03/29/2025 20:08:45.99 
+ 
+تم ضبط JAVA_HOME: C:\Program Files\Java\jdk-24 
+تم ضبط ANDROID_HOME: C:\Users\al_as\AppData\Local\Android\Sdk 
+========================= 
+معلومات النظام: 
+OS Name:                   ??Microsoft Windows 10 Home Single Language
+OS Version:                10.0.19045 N/A Build 19045
+ 
+C:\Program Files\nodejs\node.exe
+C:\Program Files\nodejs\npm
+C:\Program Files\nodejs\npm.cmd
+C:\Program Files\Java\jre1.8.0_441\bin\java.exe
+C:\Program Files\Java\jdk-24\bin\java.exe
+متغير JAVA_HOME = C:\Program Files\Java\jdk-24 
+تم العثور على JDK في مسار JAVA_HOME. 
+متغير ANDROID_HOME = C:\Users\al_as\AppData\Local\Android\Sdk 
+ 
+تنفيذ expo prebuild --no-clean... 
+unknown or unexpected option: --no-clean
+ 
+بدء عملية بناء APK بواسطة Gradle... 
+Downloading https://services.gradle.org/distributions/gradle-8.3-all.zip
+...................10%...................20%...................30%...................40%...................50%...................60%...................70%...................80%...................90%...................100%
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/al_as/.gradle/wrapper/dists/gradle-8.3-all/6en3ugtfdg5xnpx44z4qbwgas/gradle-8.3/lib/native-platform-0.22-milestone-24.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+Welcome to Gradle 8.3!
+
+Here are the highlights of this release:
+ - Faster Java compilation
+ - Reduced memory usage
+ - Support for running on Java 20
+
+For more details see https://docs.gradle.org/8.3/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not open settings generic class cache for settings file 'C:\Users\al_as\Desktop\projacts\moaqit\android\settings.gradle' (C:\Users\al_as\.gradle\caches\8.3\scripts\531qqb68v0x36301bz9ngs4km).
+> BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 68
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 54s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/al_as/.gradle/wrapper/dists/gradle-8.3-all/6en3ugtfdg5xnpx44z4qbwgas/gradle-8.3/lib/native-platform-0.22-milestone-24.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Initialized native services in: C:\Users\al_as\.gradle\native
+Initialized jansi services in: C:\Users\al_as\.gradle\native
+Received JVM installation metadata from 'C:\Program Files\Java\jdk-24': {JAVA_HOME=C:\Program Files\Java\jdk-24, JAVA_VERSION=24, JAVA_VENDOR=Oracle Corporation, RUNTIME_NAME=Java(TM) SE Runtime Environment, RUNTIME_VERSION=24+36-3646, VM_NAME=Java HotSpot(TM) 64-Bit Server VM, VM_VERSION=24+36-3646, VM_VENDOR=Oracle Corporation, OS_ARCH=amd64}
+The client will now receive all logging from the daemon (pid: 9236). The daemon log file: C:\Users\al_as\.gradle\daemon\8.3\daemon-9236.out.log
+Starting 2nd build in daemon [uptime: 30.662 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 2 GiB, non-heap usage: 6% of 512 MiB]
+Using 4 worker leases.
+Now considering [C:\Users\al_as\Desktop\projacts\moaqit\android] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Compiling settings file 'C:\Users\al_as\Desktop\projacts\moaqit\android\settings.gradle' using BuildScriptTransformer.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not open settings generic class cache for settings file 'C:\Users\al_as\Desktop\projacts\moaqit\android\settings.gradle' (C:\Users\al_as\.gradle\caches\8.3\scripts\531qqb68v0x36301bz9ngs4km).
+> BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 68
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 5s
+Watched directory hierarchies: []

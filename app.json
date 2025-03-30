@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "مواقيت",
+    "slug": "moaqit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.moaqit.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.moaqit.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "POST_NOTIFICATIONS"
+      ],
+      "versionCode": 1
+    },
+    "plugins": [
+      "expo-location",
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5d724b44-6639-4595-8c0f-4dbe5dda37cc"
+      }
+    }
+  }
+}
